@@ -5,7 +5,10 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
-    justify-content:center ;
+    justify-content: center;
+}
+.Main{
+    justify-content: center;
 }
 .BOX{
     justify-content:center ;

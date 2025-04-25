@@ -48,7 +48,7 @@ const ChatRoom = () => {
 	}, []); // Run only once on mount
 
 	return (
-		<div>
+		<div className='Main'>
 			<h2>Chat Room</h2>
 			<ul>
 				{messages.map((message) => (
@@ -57,7 +57,7 @@ const ChatRoom = () => {
 					</li>
 				))}
 			</ul>
-			<div>
+			<div className='input-text'>
 				<input
 					type="text"
 					placeholder="Your name"
